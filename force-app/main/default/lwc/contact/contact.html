@@ -1,10 +1,7 @@
 <template>
-    <template for:each={contactsList} for:item="contact">
-        <div key={contact.id}>
-            <div>Nome: {contact.Name}</div>
-            <div>Title: {contact.Title}</div>
-            <div>Phone: {contact.Phone}</div>
-            <div>Email: {contact.Email}</div>
-        </div>
-    </template>
+    <div class="container">
+        <a onclick={tileClick}>
+            <div class="title">{name}</div>
+        </a>
+    </div>
 </template>
